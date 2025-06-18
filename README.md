@@ -11,13 +11,11 @@ There’s no easy way to combine rides across platforms:
 - **RideWithGPS** doesn’t support merging rides natively.
 - **Strava** doesn’t allow combining activities post-upload.
 - **Garmin Connect** can export rides, but has no merge tool.
-- Manual GPX editing is tedious and error-prone.
+- Tools like [fitfiletools](https://www.fitfiletools.com/) and [merge-activities](https://gtt.feub.net/merge-activities/) work great, but:
+  - They're not mobile-friendly
+  - They require handling GPX/TCX/FIT files
 
-`RideStitch` solves that by providing a dedicated, mobile-friendly tool to:
-- Merge rides
-- Normalize time gaps (optional)
-- Export a clean, unified file
-- Upload directly back to your RideWithGPS account
+`RideStitch` is built mobile-first and platform-integrated — so you can stitch and re-upload rides from your phone with no file wrangling.
 
 ## 🔧 Planned Features
 
