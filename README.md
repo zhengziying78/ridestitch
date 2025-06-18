@@ -22,19 +22,12 @@ There’s no easy way to combine rides across platforms:
 ## 🔧 Planned Features
 
 - Import rides RideWithGPS
-- Combine multiple rides into one
-- Normalize timestamps (optional)
-- Fill short gaps between rides
-- Upload the merged ride directly back to RideWithGPS
-
-## 🗺️ Use Cases
-
 - Combine a multi-day tour into one ride
 - Fix a ride accidentally split mid-recording
 - Create a clean, shareable ride file for analysis or replay
-
-After merging, `RideStitch` lets you upload your ride directly to RideWithGPS.  
-It appears in your activity list like any other ride — with stats, elevation, and maps preserved.
+- Normalize timestamps (optional)
+- Fill short gaps between rides
+- Upload the merged ride directly back to RideWithGPS
 
 ## 🚧 Status
 
