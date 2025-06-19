@@ -36,7 +36,7 @@ RideStitch is a mobile-first utility app that enables cyclists to merge multiple
 
 ### Platform
 
-- Flutter (preferred for cross-platform UI and rapid development)
+- React Native (preferred for cross-platform UI and rapid development)
 - iOS: support both iPhone and iPad
 - Portrait mode only. No landscape mode.
 
@@ -75,7 +75,7 @@ RideStitch is a mobile-first utility app that enables cyclists to merge multiple
 
 ## Considerations
 
-- Cross-platform (Flutter)
+- Cross-platform
 - OAuth 2.0 for platform APIs
 - Secure token storage
 - UI/UX optimized for mobile-first
