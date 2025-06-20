@@ -6,10 +6,10 @@ Whether you're stitching together a multi-day tour or fixing a split ride caused
 
 ## 🚴 Why RideStitch?
 
-There’s no easy way to combine rides across platforms:
+There's no easy way to combine rides across platforms:
 
-- **RideWithGPS** doesn’t support merging rides natively.
-- **Strava** doesn’t allow combining activities post-upload.
+- **RideWithGPS** doesn't support merging rides natively.
+- **Strava** doesn't allow combining activities post-upload.
 - **Garmin Connect** can export rides, but has no merge tool.
 - Tools like [fitfiletools](https://www.fitfiletools.com/) and [merge-activities](https://gtt.feub.net/merge-activities/) work great, but:
   - They're not mobile-friendly
@@ -30,6 +30,49 @@ There’s no easy way to combine rides across platforms:
 ## 🚧 Status
 
 This project is currently in early development.
+
+## 💻 Development
+
+### Prerequisites
+
+- Node.js (v18+)
+- npm or yarn
+- Expo CLI
+
+### Getting Started
+
+1. Clone the repository
+   ```
+   git clone https://github.com/yourusername/ridestitch.git
+   cd ridestitch
+   ```
+
+2. Install dependencies
+   ```
+   npm install
+   ```
+
+3. Create `.env` file from example
+   ```
+   cp env.example .env
+   ```
+
+4. Start the development server
+   ```
+   npm start
+   ```
+
+5. Follow the instructions in the terminal to open the app on your device or simulator
+
+### Project Structure
+
+- `src/api/` - RideWithGPS API integration
+- `src/features/` - Feature-specific components and logic
+- `src/components/` - Reusable UI components
+- `src/lib/` - Utilities for GPX parsing and file handling
+- `src/screens/` - App screens
+- `src/navigation/` - Navigation configuration
+- `src/context/` - Global state management
 
 ## 🪪 License
 
